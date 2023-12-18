@@ -44,3 +44,4 @@ f::
 		Send {f}
 		Sleep 200
 	}
+Return
