@@ -3,8 +3,9 @@ AutoHotKey hotkey script automatically clicks, picks up items, and "keep forward
 # Features
 - F7 - "Keep Forward"
 - F8 - Auto Click
-- F9 - Auto Pickup
+- F9 - Auto Pick up
 - TAB - Stop the current one
+- Hold F - Auto Pick ip
 # Installation
 - Download and install [AutoHotKey](https://www.autohotkey.com/)
 - Save file [AutoClick-Impact](https://raw.githubusercontent.com/CleveTok3125/AutoClick-Impact/main/AutoClick-Impact.ahk) and run via AutoHotKey
