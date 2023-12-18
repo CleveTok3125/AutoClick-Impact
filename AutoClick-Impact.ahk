@@ -2,6 +2,7 @@
 SendMode Input
 #IfWinActive, Genshin Impact
 #MaxThreadsPerHotkey 1
+
 f7::
 	toggle:=!toggle
 	While toggle {
@@ -29,7 +30,7 @@ Return
 f9::
 	toggle:=!toggle
 	While toggle {
-		Send {F}
+		Send {f}
 		Sleep 200
 		if GetKeyState("TAB") & 1 {
 			MsgBox, 0, ,{AutoPickup} Forced to stop!
@@ -37,3 +38,9 @@ f9::
 		}
 	}
 Return
+
+f::
+	while GetKeyState("f", "P") {
+		Send {f}
+		Sleep 200
+	}
