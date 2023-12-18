@@ -33,7 +33,7 @@ f9::
 		Send {f}
 		Sleep 200
 		if GetKeyState("TAB") & 1 {
-			MsgBox, 0, ,{AutoPickup} Forced to stop!
+			MsgBox, 0, ,{AutoInteract} Forced to stop!
 			break
 		}
 	}
@@ -41,6 +41,7 @@ Return
 
 f::
 	while GetKeyState("f", "P") {
+		Send {WheelDown}
 		Send {f}
 		Sleep 200
 	}
