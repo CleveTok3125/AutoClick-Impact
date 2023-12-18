@@ -43,6 +43,7 @@ f::
 	while GetKeyState("f", "P") {
 		Send {WheelDown}
 		Send {f}
+		Send {WheelDown}
 		Sleep 200
 	}
 Return
