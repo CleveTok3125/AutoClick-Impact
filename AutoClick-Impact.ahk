@@ -10,7 +10,8 @@ f7::
 	toggle:=!toggle
 	While toggle {
 		Send {w down}
-		Sleep 200
+		Random, rand, 150, 200
+		Sleep %rand%
 		if GetKeyState("TAB") & 1 {
 			MsgBox, 0, ,{AutoWalk} Forced to stop!
 			break
@@ -45,10 +46,17 @@ Return
 
 f::
 	while GetKeyState("f", "P") {
-		Sleep 15
+		if GetKeyState("TAB") & 1 {
+			MsgBox, 0, ,{QuickLoot} Forced to stop!
+			break
+		}
+		Random, rand, 20, 30
+		Sleep %rand%
 		Send {f 3}
-		Sleep 15
+		Random, rand, 20, 30
+		Sleep %rand%
 		Send {WheelDown 1}
-		Sleep 15
+		Random, rand, 20, 30
+		Sleep %rand%
 	}
 Return
