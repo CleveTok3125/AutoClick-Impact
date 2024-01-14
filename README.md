@@ -7,7 +7,7 @@ AutoHotKey hotkey script automatically clicks, picks up items, and "keep forward
 - TAB - Force stop the current one
 - F6 - Enable/Disable Quick Loot:
   - Enable: Hold F - Quick Loot
-  - Disable: Hold F - Send key similar to Auto Interact
+  - Disable: Hold F - Spam F (similar to Auto Interact)
 # Installation
 - Download and install [AutoHotKey](https://www.autohotkey.com/)
 - Save file [AutoClick-Impact](https://raw.githubusercontent.com/CleveTok3125/AutoClick-Impact/main/AutoClick-Impact.ahk) and run via AutoHotKey
