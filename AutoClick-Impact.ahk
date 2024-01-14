@@ -51,10 +51,10 @@ $f_loop := 0
 f6::
 	if ($f_loop == 0) {
 		$f_loop := 1
-		MsgBox, 0, ,{QuickLoot} Mode On!
+		MsgBox, 0, ,{QuickLoot} Enabled!
 	} else {
 		$f_loop := 0
-		MsgBox, 0, ,{QuickLoot} Mode Off!
+		MsgBox, 0, ,{QuickLoot} Disabled!
 	}
 
 f::
