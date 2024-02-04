@@ -8,8 +8,8 @@ AutoHotKey hotkey script automatically clicks, picks up items, and "keep forward
 - `F6` - Enable/Disable Quick Loot:
   - Enabled: Hold `F` - Quick Loot
   - Disabled: Hold `F` - Spam `F` (similar to Auto Interact)
-- `Alt+Q` - Enable/Disable QLock*
-- `Alt+E` - Enable/Disable ELock*\
+- `Alt + Q` - Enable/Disable QLock*
+- `Alt + E` - Enable/Disable ELock*\
 *Disable the Q and E keys to avoid accidentally using skills
 # Installation
 - Download and install [AutoHotKey](https://www.autohotkey.com/)
