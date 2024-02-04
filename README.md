@@ -14,5 +14,5 @@ AutoHotKey hotkey script automatically clicks, picks up items, and "keep forward
 # Installation
 - Download and install [AutoHotKey](https://www.autohotkey.com/)
 - Save file [AutoClick-Impact](https://raw.githubusercontent.com/CleveTok3125/AutoClick-Impact/main/AutoClick-Impact.ahk) and run via AutoHotKey
-# Important note
+# Important notes
 When running the script, Quick Loot, QLock, ELock will always be set to disabled. When pressing the hotkey, the disabled state will always be displayed first and pressing the hotkey again will switch to the enabled state.
