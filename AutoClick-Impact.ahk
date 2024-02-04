@@ -46,7 +46,6 @@ f9::
 Return
 
 global $f_loop
-$f_loop := 0
 
 f6::
 	if ($f_loop == 0) {
@@ -56,6 +55,7 @@ f6::
 		$f_loop := 0
 		MsgBox, 0, ,{QuickLoot} Disabled!
 	}
+	Return
 
 f::
 	if $f_loop {
@@ -77,5 +77,45 @@ f::
 		Send {f}
 		Random, rand, 150, 200
 		Sleep %rand%
+	}
+Return
+
+global $q_lock
+
+!q::
+	if ($q_lock == 0) {
+		$q_lock := 1
+		MsgBox, 0, ,{QLock} Enabled!
+	} else {
+		$q_lock := 0
+		MsgBox, 0, ,{QLock} Disabled!
+	}
+	Return
+
+q::
+	if $q_lock {
+		Return
+	} else {
+		Send {q}
+	}
+Return
+
+global $e_lock
+
+!e::
+	if ($e_lock == 0) {
+		$e_lock := 1
+		MsgBox, 0, ,{ELock} Enabled!
+	} else {
+		$e_lock := 0
+		MsgBox, 0, ,{ELock} Disabled!
+	}
+	Return
+
+e::
+	if $e_lock {
+		Return
+	} else {
+		Send {e}
 	}
 Return
