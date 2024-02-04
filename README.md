@@ -9,8 +9,8 @@ AutoHotKey hotkey script automatically clicks, picks up items, and "keep forward
   - Enabled: Hold `F` - Quick Loot
   - Disabled: Hold `F` - Spam `F` (similar to Auto Interact)
 - `Alt+Q` - Enable/Disable QLock*
-- `Alt+E` - Enable/Disable ELock*
-*Disable the E and Q keys to avoid accidentally using skills
+- `Alt+E` - Enable/Disable ELock*\
+*Disable the Q and E keys to avoid accidentally using skills
 # Installation
 - Download and install [AutoHotKey](https://www.autohotkey.com/)
 - Save file [AutoClick-Impact](https://raw.githubusercontent.com/CleveTok3125/AutoClick-Impact/main/AutoClick-Impact.ahk) and run via AutoHotKey
