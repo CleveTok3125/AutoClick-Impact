@@ -2,7 +2,7 @@
 AutoHotKey hotkey script automatically clicks, picks up items, and "keep forward" for Genshin Impact
 # Features
 - `TAB` - Force stop the current one
-- `Alt+P` - Pause/Unpause scripts
+- `Alt+P` - Suspend/Unsuspend script
 - `F7` - "Keep Forward"
 - `F8` - Auto Click
 - `F9` - Auto Interact
@@ -20,4 +20,4 @@ When running the script, Quick Loot, QLock, ELock will always be set to disabled
 # Known issues
 - When Dashing with `Shift` and pressing `E` or `Q`, ELock and QLock do not work. (Use `RButton` instead of `Shift` to fix it)
 - ~When ELock and QLock are in disabled mode, skills cannot be performed in the long-press state~
-- Spam sends keys even when hotkeys are not pressed. (This is due to the computer's processing speed. Press `TAB` to stop and the script should be paused during combat with `Alt+P`)
+- Spam sends keys even when hotkeys are not pressed. (This is due to the computer's processing speed. Press `TAB` to stop and the script should be suspended during combat with `Alt+S`)
