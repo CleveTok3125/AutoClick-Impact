@@ -2,7 +2,7 @@
 AutoHotKey hotkey script automatically clicks, picks up items, and "keep forward" for Genshin Impact
 # Features
 - `TAB` - Force stop the current one
-- `Alt+P` - Suspend/Unsuspend script
+- `Alt+S` - Suspend/Unsuspend script
 - `F7` - "Keep Forward"
 - `F8` - Auto Click
 - `F9` - Auto Interact
