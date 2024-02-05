@@ -136,4 +136,4 @@ e::
 	}
 Return
 
-!p:: Pause -1
+!s:: Suspend -1
