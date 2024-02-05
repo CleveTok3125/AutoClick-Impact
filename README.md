@@ -16,6 +16,6 @@ AutoHotKey hotkey script automatically clicks, picks up items, and "keep forward
 - Save file [AutoClick-Impact](https://raw.githubusercontent.com/CleveTok3125/AutoClick-Impact/main/AutoClick-Impact.ahk) and run via AutoHotKey
 # Important notes
 When running the script, Quick Loot, QLock, ELock will always be set to disabled. When pressing the hotkey, the disabled state will always be displayed first and pressing the hotkey again will switch to the enabled state.
-# Know Issues
+# Known issues
 - When pressing `Shift+E` and `Shift+Q`, ELock and QLock do not work
 - When ELock and QLock are in disabled mode, skills cannot be performed in the long-press state
