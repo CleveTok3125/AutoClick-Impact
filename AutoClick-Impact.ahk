@@ -96,7 +96,15 @@ q::
 	if $q_lock {
 		Return
 	} else {
-		Send {q}
+		while GetKeyState("q", "P") {
+			if GetKeyState("TAB") & 1 {
+				MsgBox, 0, ,{Qlock} Forced to stop!
+				break
+			}
+			Send {q down}
+			Sleep 30
+		}
+		Send {q up}
 	}
 Return
 
@@ -116,6 +124,16 @@ e::
 	if $e_lock {
 		Return
 	} else {
-		Send {e}
+		while GetKeyState("e", "P") {
+			if GetKeyState("TAB") & 1 {
+				MsgBox, 0, ,{Elock} Forced to stop!
+				break
+			}
+			Send {e down}
+			Sleep 30
+		}
+		Send {e up}
 	}
 Return
+
+!p:: Pause -1
