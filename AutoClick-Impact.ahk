@@ -3,12 +3,15 @@ SendMode Input
 #WinActivateForce
 #singleInstance, Force
 SetBatchLines -1
-#IfWinActive ahk_exe GenshinImpact.exe
+;#IfWinActive ahk_exe GenshinImpact.exe
 #MaxThreadsPerHotkey 1
 
 f7::
-	toggle:=!toggle
-	While toggle {
+	Sleep 200
+	While 1 {
+		if GetKeyState("f7") & 1 {
+			break
+		}
 		Send {w down}
 		Random, rand, 150, 200
 		Sleep %rand%
@@ -17,11 +20,15 @@ f7::
 			break
 		}
 	}
+	Send {w up}
 Return
 
 f8::
-	toggle:=!toggle
-	While toggle {
+	Sleep 200
+	While 1 {
+		if GetKeyState("f8") & 1 {
+			break
+		}
 		Send {LButton}
 		Random, rand, 150, 200
 		Sleep %rand%
@@ -33,8 +40,11 @@ f8::
 Return
 
 f9::
-	toggle:=!toggle
-	While toggle {
+	Sleep 200
+	While 1 {
+		if GetKeyState("f9") & 1 {
+			break
+		}
 		Send {f}
 		Random, rand, 150, 200
 		Sleep %rand%
