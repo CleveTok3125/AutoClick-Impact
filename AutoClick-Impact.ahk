@@ -136,4 +136,29 @@ e::
 	}
 Return
 
-!s:: Suspend -1
+Led() {
+	if !GetKeyState("CapsLock", "T") {
+		SetCapsLockState 1
+	} else {
+		SetCapsLockState 0
+	}
+	if !GetKeyState("NumLock", "T") {
+		SetNumLockState 1
+	} else {
+		SetNumLockState 0
+	}
+	Sleep 200
+}
+
+!s::
+	Suspend -1
+	Send {Alt}
+	if A_IsSuspended {
+		Loop 4 {
+			Led()
+		}
+	} else {
+		Loop 2 {
+			Led()
+		}
+	}
