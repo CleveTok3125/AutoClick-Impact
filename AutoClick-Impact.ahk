@@ -162,7 +162,6 @@ Led() {
 
 !s::
 	Suspend -1
-	Send {Alt}
 	if A_IsSuspended {
 		Loop 4 {
 			Led()
@@ -172,3 +171,4 @@ Led() {
 			Led()
 		}
 	}
+	Send {Alt}
