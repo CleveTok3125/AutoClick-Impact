@@ -3,7 +3,7 @@ SendMode Input
 #WinActivateForce
 #singleInstance, Force
 SetBatchLines -1
-;#IfWinActive ahk_exe GenshinImpact.exe
+#IfWinActive ahk_exe GenshinImpact.exe
 #MaxThreadsPerHotkey 1
 
 f7::
