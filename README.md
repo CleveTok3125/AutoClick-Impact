@@ -12,11 +12,13 @@ AutoHotKey hotkey script automatically clicks, picks up items, and "keep forward
 - `Alt+Q` - Enable/Disable QLock*
 - `Alt+E` - Enable/Disable ELock*\
 *Disable the Q and E keys to avoid accidentally using skills
+- Hold ``` ` ``` - Fast swimming
 # Installation
 - Download and install [AutoHotKey](https://www.autohotkey.com/)
 - Save file [AutoClick-Impact](https://raw.githubusercontent.com/CleveTok3125/AutoClick-Impact/main/AutoClick-Impact.ahk) and run via AutoHotKey
 # Important notes
-When running the script, Quick Loot, QLock, ELock will always be set to disabled. When pressing the hotkey, the disabled state will always be displayed first and pressing the hotkey again will switch to the enabled state.
+- Because the main branch is committed frequently, the script often contains errors. Use [Stable Version](https://github.com/CleveTok3125/AutoClick-Impact/releases) to avoid this.
+- When running the script, Quick Loot, QLock, ELock will always be set to disabled. When pressing the hotkey, the disabled state will always be displayed first and pressing the hotkey again will switch to the enabled state.
 # Known issues
 - When Dashing with `Shift` and pressing `E` or `Q`, ELock and QLock do not work. (Use `RButton` instead of `Shift` to fix it)
 - ~When ELock and QLock are in disabled mode, skills cannot be performed in the long-press state~
