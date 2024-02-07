@@ -172,3 +172,10 @@ Led() {
 		}
 	}
 	Send {Alt}
+
+`::
+	Send {Shift down}
+	Send {w}
+	Random, rand, 30, 50
+	Sleep %rand%
+	Send {Shift up}
